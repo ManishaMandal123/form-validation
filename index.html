@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/vanilla.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myForm" onsubmit="return validateForm()">
+        <h1 class="heading">Register With Us</h1>
+        <label for="name">Username:</label><br>
+        <input type="text" id="name" placeholder="Enter username" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="Enter email" name="email"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" placeholder="Enter password" name="password"><br>
+        <label for="passwordConfirmation">Confirm Password:</label><br />
+        <input type="password" id="passwordConfirmation" placeholder="Enter password again" name="passwordConfirmation" /><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

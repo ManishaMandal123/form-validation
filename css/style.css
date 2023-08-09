@@ -1,0 +1,60 @@
+.heading {
+    text-align: center;
+    font-size: 28px;
+}
+
+form {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 45px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-top: 80px;
+    box-shadow: 1px 3px 20px #6f6b6b;
+    font-size: 18px;
+  }
+  
+  /* Style the form inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  /* Change the border color on focus */
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-bottom: 2px solid #4caf50;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Change the button color on hover */
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add responsiveness to the form */
+  @media screen and (max-width:600px) {
+      form {
+          max-width:100%;
+      }
+  }
